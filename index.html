@@ -1,0 +1,76 @@
+
+/* ===== LOVE BEAT SPECIAL ENDING ===== */
+
+.ending-screen {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(160deg, #fff7fb, #ffe0ed, #fff0f6);
+  border: 3px solid white;
+}
+
+.couple-title {
+  font-size: 34px;
+  color: #db719e;
+  text-shadow: 2px 3px 8px #f5b5d0;
+}
+
+.anniversary-date {
+  display: inline-block;
+  padding: 9px 20px;
+  border-radius: 30px;
+  background: #ffe0ed;
+  color: #c65c89;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.flower-decoration {
+  font-size: 35px;
+  margin: 12px;
+  animation: flowerDance 2s infinite ease-in-out;
+}
+
+@keyframes flowerDance {
+  0%,100% { transform: rotate(-8deg) scale(1); }
+  50% { transform: rotate(8deg) scale(1.15); }
+}
+
+.ending-heart {
+  font-size: 65px;
+  display: inline-block;
+  animation: heartBeat 1.1s infinite;
+}
+
+@keyframes heartBeat {
+  0%,100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.love-stats {
+  background: #fff0f6;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 18px 0;
+  line-height: 2;
+}
+
+.love-stats strong {
+  color: #df77a0;
+  font-size: 23px;
+}
+
+.love-message {
+  color: #c56e91;
+  line-height: 2;
+  font-style: italic;
+}
+
+.letter {
+  box-shadow: 0 5px 20px #e8a0bd44;
+}
+
+.letter-heart {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
